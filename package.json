@@ -1,0 +1,16 @@
+{
+  "name": "cheka",
+  "version": "1.0.0",
+  "description": " A simple game engine",
+  "main": "cheka.js",
+  "scripts": {
+    "build": "webpack --env build",
+    "dev": "webpack --progress --colors --watch --env dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dung Nguyen",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.7.1"
+  }
+}
